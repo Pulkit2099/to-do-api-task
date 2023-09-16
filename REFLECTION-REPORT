@@ -1,0 +1,16 @@
+During the development of this project, I faced a few challenges:\\\
+
+
+1-Error Handling: Implementing robust error handling for various edge cases was crucial to make the API more resilient.
+
+2-Scheduling Cron Job: Setting up and scheduling the cron job to run daily at midnight required understanding the cron syntax and integrating it with the application.
+
+3-Data Persistence: Using a JSON file for data storage simplifies the project but may not be suitable for large-scale applications. In a real-world scenario, a database would be more appropriate.
+
+4-What I learned from this exercise:
+
+--Enhanced knowledge of building RESTful APIs using Node.js and Express.
+--Understanding and working with cron jobs for scheduled tasks.
+--Importance of data persistence and the trade-offs between using a JSON file and a database.
+--Improved error handling and validation for API endpoints.
+===In summary, this project provides a simple yet functional CRUD API for managing a to-do list and demonstrates the integration of a cron job for automated data maintenance. For production use, additional features like authentication, data validation, and database integration would be necessary.
