@@ -1,0 +1,26 @@
+Brief Documentation:
+
+Creating a Todo:
+
+---Endpoint: POST /todos
+Input: JSON object with "title" (string) and "completed" (boolean) fields.
+Output: JSON object of the created todo.
+Retrieving Todos:
+
+---Endpoint: GET /todos
+Input: None
+Output: JSON array containing all todos.
+Updating a Todo:
+
+---Endpoint: PUT /todos/{id} (replace {id} with the ID of the todo)
+Input: JSON object with updated "title" and "completed" fields.
+Output: JSON object of the updated todo.
+Deleting a Todo:
+
+---Endpoint: DELETE /todos/{id} (replace {id} with the ID of the todo)
+Input: None
+Output: No content (HTTP status 204).
+Cron Job:
+
+--A cron job runs daily at midnight (00:00).
+It deletes all completed todos from the JSON file.
